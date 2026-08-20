@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Décommenter une fois le domaine de production connu :
+# Sitemap: https://www.example.com/sitemap.xml

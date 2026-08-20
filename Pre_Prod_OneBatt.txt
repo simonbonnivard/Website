@@ -1,0 +1,154 @@
+Contexte de l’entreprise
+
+OneBatt est un magasin et atelier spécialisé dans l'énergie embarquée : vente, diagnostic et remplacement de batteries pour tous types de véhicules (auto, moto, utilitaire, camping-car, bateau, golfette, mobilité PMR, lithium, solaire). L'enseigne est installée à Villeneuve-lès-Béziers au 10 avenue du Romain (On utilisera souvent Béziers pour des raisons SEO)
+
+Le site a pour objectif de générer des appels téléphoniques et des visites en magasin auprès des particuliers et professionnels de Béziers et sa région. Il doit permettre au visiteur de comprendre rapidement que OneBatt ne se contente pas de vendre une batterie : l'enseigne diagnostique d'abord le vrai problème (batterie, alternateur, système de charge), puis propose la bonne solution. 
+
+Le visiteur doit se sentir rassuré par l'expertise des fondateurs, le statut de revendeur officiel des grandes marques et la méthode de prise en charge en 4 étapes, puis passer à l'action en appelant directement l'atelier.
+
+**Présentation** : 
+
+OneBatt intervient sur Béziers et sa région (périmètre régional, Hérault et départements limitrophes). L'enseigne accompagne les particuliers comme les professionnels (artisans, véhicules utilitaires, vans, camping-cars et véhicules de santé) face à un besoin simple mais souvent mal traité : trouver la bonne batterie et s'assurer que la panne vient bien de là.
+
+L'entreprise se distingue par une approche atelier : diagnostic du système électrique avant toute vente, conseil selon le véhicule, l'usage et le budget, et un accompagnement de proximité y compris à domicile ou sur site. OneBatt structure son offre autour de trois univers complémentaires : Atelier, Batteries et Services.
+
+**Ce qui définit OneBatt :**
+
+- Une logique atelier + magasin : on diagnostique avant de vendre (contrôle batterie, charge, alternateur, démarreur).
+- Une couverture complète de l'énergie embarquée : auto, moto, utilitaire, camping-car, bateau, golfette, mobilité PMR, lithium, solaire. solaire.
+- Une signature différenciante sur les véhicules loisirs (van, camping-car, autonomie, lithium, panneaux solaires, mobilité et PMR), créneau plus technique et moins concurrentiel localement.
+- Un service d'intervention à domicile ou sur site.
+- Des fondateurs experts du métier : Mathieu Canal et Dorian Selig. L'entreprise est jeune, mais l'expertise est réelle et ancienne.
+- Le statut de revendeur officiel de marques reconnues (voir Preuves de crédibilité) et une marque propre, ONEBATT.
+- Un ancrage local fort : magasin et atelier physiques sur Béziers.
+
+**Le contexte actuel**
+
+Entreprise créée en 2026. Le défi du site n'est donc pas de capitaliser sur une longue ancienneté, mais d'installer immédiatement la crédibilité : expertise des fondateurs, marques officielles distribuées, méthode claire et preuves locales. Le site doit faire d'une jeune enseigne un référent local crédible dès la première visite.
+
+**Les fondateurs**
+
+Mathieu Canal, président. BTS Management et licence en management STAPS. Une dizaine d'années d'expérience sur le conseil et la vente technique, l'analyse des besoins clients, la gestion d'entreprise, les batteries automobiles, industrielles, de loisirs et de mobilité PMR, ainsi que l'énergie embarquée.
+
+Dorian Selig, directeur général. Bac professionnel en mécanique automobile et BTS commercial. Près de dix années d'expérience sur le diagnostic automobile, les interventions en atelier, les systèmes de démarrage et de charge, les alternateurs et démarreurs, et l'installation d'équipements électriques embarqués.
+
+Ils ont travaillé ensemble pendant sept ans. Mathieu est orienté gestion, conseil et applications de la batterie, Dorian est orienté technique et atelier. Le binôme couvre tout le parcours client : analyse du besoin, conseil, diagnostic, vente, installation et suivi.
+
+*À ne pas faire : citer leur ancien employeur ou entrer dans des détails personnels.*
+
+**Offres / prestations principales**
+
+| Offre | Description | Cible | Problème résolu | Priorité |
+| --- | --- | --- | --- | --- |
+| Diagnostic & atelier | Contrôle batterie, charge, alternateur, démarreur ; remplacement et interventions rapides. | Particuliers + pros | Panne de démarrage, doute sur l'origine du problème. | Haute |
+| Vente de batteries | Auto, moto, utilitaire, loisirs, lithium, traction ; conseil selon véhicule, usage, budget. Reprise des anciennes batteries. | Tous publics | Choisir la bonne batterie et la bonne technologie. | Haute |
+| Énergie embarquée loisirs | Van, camping-car, bateau, lithium, autonomie, panneaux solaires. | Camping-caristes, vanlifers, loisirs | Manque d'autonomie, installation énergie mobile. | Haute (signature) |
+| Services & accompagnement | Conseil, aide au choix, remplacement, suivi de proximité, accessoires et chargeurs. | Particuliers, artisans, pros | Besoin d'un interlocuteur de confiance proche. | Moyenne |
+| Mobilité et PMR | Batteries pour fauteuils roulants électriques, scooters de mobilité, monte-escaliers. | Particuliers, aidants, structures de santé | Perte d'autonomie d'un équipement vital. | Moyenne |
+| Intervention à domicile | Contrôle et remplacement chez le client, sur site, en camping ou sur véhicule immobilisé. | Particuliers, pros, campings | Véhicule ou équipement immobilisé. | Haute |
+| Golfettes | Diagnostic, packs plomb ou lithium, chargeur, câblage, entretien et remise en état. | Campings, golfs, particuliers | Panne ou perte d'autonomie de golfette. | Moyenne |
+| Entretien courant | Vidange, filtres, plaquettes et disques de frein. | Particuliers, pros | Entretien de proximité. | Basse |
+| Bornes de recharge | Vente de bornes pour véhicules électriques (pose réglementée sous-traitée). | Particuliers, pros | Recharge de véhicule électrique. | Basse |
+
+*Le pôle loisirs / énergie embarquée est en priorité haute car c'est la signature différenciante : à valoriser même s'il ne représente pas le plus gros volume. À ajuster selon le poids réel de chaque offre dans le chiffre d'affaires visé.*
+
+**Positionnement**
+
+Le site doit présenter OneBatt comme un spécialiste local expert et accessible : un atelier de proximité qui maîtrise la technique (toutes technologies : standard, EFB, AGM, lithium, gel) mais qui parle clairement à un public non expert. La promesse n'est pas le prix, c'est la justesse du diagnostic et le bon choix de batterie.
+
+Le site doit éviter l'image d'un simple point de vente de pièces low cost ou d'une grande surface auto impersonnelle. L'objectif est une perception : expert, fiable, proche, honnête (on ne vend pas pour vendre, on vérifie d'abord).
+
+**USP (Proposition de valeur) :**
+
+> On ne vend pas une batterie, on règle le problème. Chez OneBatt, chaque batterie est précédée d'un diagnostic : on vérifie que la panne vient bien de la batterie avant de la remplacer. Vente, diagnostic et remplacement, toutes technologies, tous véhicules, par des experts, à Béziers.
+> 
+
+*Angle retenu : expert proximité généraliste (le diagnostic avant la vente), avec l'énergie embarquée loisirs en signature. À affiner en Phase 6 lors de la rédaction du hero.*
+
+**Preuves de crédibilité**
+
+- **Revendeur officiel** de marques reconnues : Rombat, Varta, Victron, Enix, Bosch, Exide, Uniteck, Énergie Mobile, Yuasa, NOCO, Rolls, Optima, Duracell (bannière fournisseurs à intégrer dès le hero).
+- **Marque propre ONEBATT** : l'enseigne engage son nom sur sa propre gamme.
+- **Fondateurs experts** du métier (Mathieu Canal et Dorian Selig) : dix ans de métier chacun et sept ans de collaboration commune.
+- **Atelier physique et magasin** à Béziers : preuve de sérieux et d'ancrage local (accueil, diagnostic sur place, horaires affichés).
+- **Méthode de prise en charge claire** en 4 étapes (écoute, diagnostic, solution adaptée, contrôle final) : rassure sur le professionnalisme.
+- **Maîtrise de toutes les technologies** (standard, EFB, AGM, lithium, gel, traction, solaire) : couvre tous les besoins en un seul endroit.
+- Le déplacement à domicile ou sur site, que peu de concurrents locaux proposent.
+
+*À récupérer / activer : avis Google (créer et alimenter la fiche d'établissement dès le lancement), photos réelles du magasin et de l'atelier, éventuels chiffres (nombre de diagnostics, véhicules traités) à mesure que l'activité se construit.*
+
+**Vision du site**
+
+Le site doit devenir la vitrine principale et l'outil de captation locale de ONE BATT : il transforme une recherche (« batterie Béziers », « diagnostic batterie », « batterie camping-car » « batterie fauteuil roulant électrique »…) en appel téléphonique ou en visite au magasin.
+
+Il doit donner au visiteur l'impression d'arriver chez un spécialiste sérieux et accessible, pas chez un revendeur anonyme. Après quelques secondes, l'utilisateur doit avoir compris trois choses : ONE BATT vend et pose des batteries pour tous véhicules, on diagnostique avant de remplacer, et c'est à Béziers avec un numéro pour appeler tout de suite.
+
+**Objectifs business**
+
+**Objectif principal**
+
+- Générer des appels téléphoniques et des visites en magasin (acquisition locale de clients particuliers et pros).
+
+**Objectifs secondaires**
+
+- Installer la crédibilité d'une enseigne récente (expertise, marques officielles, méthode).
+- Se positionner en référencement local sur les requêtes batteries / diagnostic à Béziers et alentours.
+- Capter le créneau différenciant énergie embarquée / loisirs (van, camping-car, lithium, solaire).
+
+**Conversions attendues**
+
+- **CTA principal :** appel téléphonique (numéro cliquable, présent dans le header, le hero et le footer).
+- **CTA secondaire :** Nous trouver (adresse, carte, itinéraire vers le magasin).
+- **Conversion complémentaire :** formulaire de demande de contact (véhicule, immatriculation, besoin) pour les visiteurs qui préfèrent écrire.
+
+**Cibles**
+
+**Cible principale**
+Le particulier ou le professionnel local (artisan, utilitaire) confronté à un souci de batterie ou de démarrage, qui cherche un spécialiste de confiance près de chez lui plutôt qu'une grande surface ou un achat en ligne incertain.
+
+**Cible secondaire**
+Le profil loisirs : camping-cariste, vanlifer, plaisancier, qui cherche de l'autonomie (lithium, solaire, énergie embarquée) et un interlocuteur capable de le conseiller techniquement.
+
+**Niveau de connaissance**
+Débutant à intermédiaire sur la technique. Le client sait qu'il a un problème de batterie ou d'autonomie, mais ne maîtrise pas les technologies (AGM, EFB, lithium, gel) ni la cause exacte (batterie ? alternateur ?). Le site doit vulgariser sans infantiliser, et utiliser le vocabulaire technique comme signe d'expertise, jamais comme barrière.
+
+| Leurs principales attentes | Leurs principales peurs |
+| --- | --- |
+| Trouver vite la bonne batterie pour leur véhicule. | Payer une batterie alors que le problème venait d'ailleurs (alternateur). |
+| Être sûr que la panne vient bien de la batterie. | Tomber sur un vendeur qui pousse à l'achat sans vérifier. |
+| Un conseil clair, honnête, adapté à leur usage et budget. | Acheter en ligne la mauvaise référence, incompatible. |
+| Une prise en charge rapide et de proximité. | Se retrouver en panne, sans solution immédiate près de chez eux. |
+
+**Message central à transmettre**
+
+> L'énergie embarquée, c'est notre métier. On diagnostique, on conseille, on remplace, pour tous vos véhicules, à Béziers.
+> 
+
+**Messages secondaires**
+
+- On vérifie d'abord, on remplace ensuite : pas de batterie vendue inutilement.
+- Toutes les technologies, tous les usages : auto, moto, utilitaire, loisirs, lithium, solaire.
+- Des experts et des marques officielles, au cœur de Béziers, faciles à joindre.
+
+**Ton éditorial et vocabulaire**
+
+**Ton à adopter**
+Clair, rassurant, expert mais accessible. Le ton d'un spécialiste qui prend le temps d'expliquer, sans jargon gratuit. Direct et concret (le client a souvent un problème urgent : démarrage, panne). Vouvoiement, phrases courtes, registre professionnel mais chaleureux.
+
+| Mots / registre à utiliser | Mots / registre à éviter |
+| --- | --- |
+| Diagnostic, énergie embarquée, autonomie | Jargon technique non expliqué |
+| Conseil, adapté, le bon choix | Promesses creuses (« n°1 », « le meilleur ») |
+| Toutes technologies, tous véhicules | Vocabulaire low cost / « prix cassés » |
+| Proximité, Béziers, atelier | Ton impersonnel de grande surface |
+
+*Adapter systématiquement le vocabulaire à la cible (particulier + pro local) : expliquer brièvement les sigles techniques (AGM, EFB, lithium) la première fois qu'ils apparaissent.*
+
+**Contraintes et points de vigilance**
+
+- **Direction artistique :** beaucoup moins de noir, privilégier le gris et la photo en fond. Bannière blanche plus claire. Logos fournisseurs en bannière. Hero avec texte centré, bannière fournisseurs visible, fond photo, mention « Atelier · Batteries · Services » en H2, CTA = numéro de téléphone. Intégrer les nouvelles vidéos et le logo ONE BATT.
+- **Éviter l'effet « trop IA » :** le client a trouvé la première ébauche trop générique. Viser un rendu plus humain, ancré, avec de vraies photos du magasin et de l'atelier.
+- Ne pas citer l'ancien employeur des fondateurs, ni entrer dans des détails personnels.
+- **Site léger :** 5 pages, vitrine simple et efficace. Pas de surenchère de fonctionnalités. Priorité au référencement local, à la sécurité et à la performance.
+- **Crédibilité d'une jeune enseigne :** compenser l'absence d'historique par les marques officielles, l'expertise des fondateurs et la méthode. Ne pas inventer d'ancienneté.
+- **À éviter absolument :** le positionnement prix / discount, qui détruirait l'argument expertise et diagnostic.
