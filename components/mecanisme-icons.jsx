@@ -2,40 +2,33 @@ const variants = {
   listen: (
     <svg className="mecanisme__icon__svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
       <circle className="mecanisme__icon__ring" cx="40" cy="40" r="34" />
-      <path
-        className="mecanisme__icon__stroke"
-        d="M28 34c0-6.6 5.4-12 12-12s12 5.4 12 12v10c0 4.4-3.6 8-8 8h-1"
-      />
-      <path
-        className="mecanisme__icon__stroke"
-        d="M36 52v4c0 2.2 1.8 4 4 4s4-1.8 4-4v-4"
-      />
+      <path className="mecanisme__icon__stroke" d="M15 44a17.5 17.5 0 0 1 35 0" />
+      <rect className="mecanisme__icon__stroke" x="10" y="44" width="10" height="17" rx="5" />
+      <rect className="mecanisme__icon__stroke" x="45" y="44" width="10" height="17" rx="5" />
       <path
         className="mecanisme__icon__wave mecanisme__icon__wave--1"
-        d="M58 36c3 0 5 2.2 5 5s-2 5-5 5"
+        d="M59 46c4 0 7 2.7 7 6s-3 6-7 6"
       />
       <path
         className="mecanisme__icon__wave mecanisme__icon__wave--2"
-        d="M62 32c5.5 0 9 4 9 9s-3.5 9-9 9"
+        d="M59 40c8 0 13 5.4 13 12s-5 12-13 12"
       />
       <path
         className="mecanisme__icon__wave mecanisme__icon__wave--3"
-        d="M66 28c8 0 13 6 13 13s-5 13-13 13"
+        d="M59 35c11 0 17 7.5 17 17s-6 17-17 17"
       />
     </svg>
   ),
   diagnose: (
     <svg className="mecanisme__icon__svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
       <circle className="mecanisme__icon__ring" cx="40" cy="40" r="34" />
-      <rect className="mecanisme__icon__stroke" x="22" y="26" width="22" height="28" rx="3" />
-      <path className="mecanisme__icon__stroke" d="M26 34h14M26 40h14M26 46h8" />
-      <path className="mecanisme__icon__needle" d="M48 52L58 22" pathLength="1" />
-      <circle className="mecanisme__icon__accent" cx="58" cy="22" r="3" />
+      <rect className="mecanisme__icon__stroke" x="18" y="26" width="44" height="30" rx="6" />
       <path
         className="mecanisme__icon__waveform"
-        d="M18 58h6l3-8 4 16 4-10 3 6h8"
+        d="M24 44h6l4-11 6 22 4-15 3 4h11"
         pathLength="1"
       />
+      <circle className="mecanisme__icon__accent" cx="34" cy="33" r="3" />
     </svg>
   ),
   choose: (

@@ -67,7 +67,7 @@ Le site doit éviter l'image d'un simple point de vente de pièces low cost ou d
 
 **Preuves de crédibilité**
 
-- **Revendeur officiel** de marques reconnues : Rombat, Varta, Victron, Enix, Bosch, Exide, Uniteck, Énergie Mobile, Yuasa, NOCO, Rolls, Optima, Duracell (bannière fournisseurs à intégrer dès le hero).
+- **Revendeur officiel** de marques reconnues : Rombat, Varta, Victron, Enix, Bosch, Exide, Uniteck, Énergie Mobile, Yuasa, NOCO, Rolls, Optima, Duracell (bannière fournisseurs à intégrer dès le hero).
 - **Marque propre ONEBATT** : l'enseigne engage son nom sur sa propre gamme.
 - **Fondateurs experts** du métier (Mathieu Canal et Dorian Selig) : dix ans de métier chacun et sept ans de collaboration commune.
 - **Atelier physique et magasin** à Béziers : preuve de sérieux et d'ancrage local (accueil, diagnostic sur place, horaires affichés).

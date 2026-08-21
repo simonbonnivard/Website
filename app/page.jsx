@@ -1,5 +1,7 @@
 import { partners } from "@/lib/partners";
+import { comparatifRows, faqItems } from "@/lib/content";
 import { MecanismeStepIcon } from "@/components/mecanisme-icons";
+import { ComparatifMark } from "@/components/comparatif-icons";
 
 function PartnerTrack({ ariaHidden = false }) {
   return (
@@ -464,13 +466,12 @@ export default function HomePage() {
                 notre méthode en <span className="line__gold">4&nbsp;étapes</span>
               </h2>
               <p className="mecanisme__lede reveal-on-scroll">
-                La plupart des points de vente vous proposent une batterie
-                sans rien vérifier. Le problème, c&apos;est qu&apos;une panne
-                de démarrage ne vient pas toujours de la batterie. Notre
-                méthode intègre une étape que les autres sautent&nbsp;: le
-                diagnostic complet du système avant toute proposition.
-                C&apos;est ce qui garantit que vous repartez avec la vraie
-                solution, pas une dépense au hasard.
+                La plupart des points de vente vendent une batterie sans
+                contrôle. Or une panne de démarrage ne vient pas toujours
+                de là. Notre méthode intègre l&apos;étape que les autres
+                sautent&nbsp;: diagnostic complet du système avant toute
+                proposition. Vous repartez avec la vraie solution, pas une
+                dépense au hasard.
               </p>
               <div className="mecanisme__cta cta-row reveal-on-scroll">
                 <a className="pill pill--primary" href="tel:+33467000000">
@@ -485,11 +486,11 @@ export default function HomePage() {
             </header>
 
             <ol className="mecanisme__list">
-              <li className="mecanisme__step reveal-on-scroll" data-delay="1">
+              <li className="mecanisme__step">
                 <div className="mecanisme__marker" aria-hidden="true">
                   <span className="mecanisme__marker__number">01</span>
                 </div>
-                <div className="mecanisme__row">
+                <div className="mecanisme__row reveal-on-scroll" data-delay="1">
                   <article className="mecanisme__card">
                     <span className="mecanisme__rail" aria-hidden="true">
                       <i />
@@ -498,25 +499,20 @@ export default function HomePage() {
                       On&nbsp;<span className="line__gold">écoute</span> votre&nbsp;besoin
                     </h3>
                     <p className="mecanisme__text">
-                      Vous nous décrivez votre véhicule, votre usage et les
-                      symptômes (démarrage difficile, voyant, perte de
-                      puissance, besoin d&apos;autonomie). On cerne tout de
-                      suite la piste à explorer&nbsp;: vous vous sentez
-                      compris, pas pressé.
+                      Vous décrivez véhicule, usage et symptômes (démarrage,
+                      voyant, autonomie). On cerne la piste tout de suite&nbsp;:
+                      vous vous sentez compris, pas pressé.
                     </p>
                   </article>
                   <MecanismeStepIcon variant="listen" />
                 </div>
               </li>
 
-              <li
-                className="mecanisme__step mecanisme__step--reverse reveal-on-scroll"
-                data-delay="2"
-              >
+              <li className="mecanisme__step mecanisme__step--reverse">
                 <div className="mecanisme__marker" aria-hidden="true">
                   <span className="mecanisme__marker__number">02</span>
                 </div>
-                <div className="mecanisme__row">
+                <div className="mecanisme__row reveal-on-scroll" data-delay="2">
                   <article className="mecanisme__card">
                     <span className="mecanisme__rail" aria-hidden="true">
                       <i />
@@ -525,21 +521,20 @@ export default function HomePage() {
                       On&nbsp;<span className="line__gold">diagnostique</span> avant&nbsp;tout
                     </h3>
                     <p className="mecanisme__text">
-                      On contrôle la batterie (tension, capacité, état), le
-                      système de charge, l&apos;alternateur et les
-                      connexions. Vous savez enfin d&apos;où vient vraiment
-                      le problème, preuve à&nbsp;l&apos;appui.
+                      On contrôle batterie, charge, alternateur et
+                      connexions. Vous savez enfin d&apos;où vient le
+                      problème, preuve à&nbsp;l&apos;appui.
                     </p>
                   </article>
                   <MecanismeStepIcon variant="diagnose" />
                 </div>
               </li>
 
-              <li className="mecanisme__step reveal-on-scroll" data-delay="3">
+              <li className="mecanisme__step">
                 <div className="mecanisme__marker" aria-hidden="true">
                   <span className="mecanisme__marker__number">03</span>
                 </div>
-                <div className="mecanisme__row">
+                <div className="mecanisme__row reveal-on-scroll" data-delay="3">
                   <article className="mecanisme__card">
                     <span className="mecanisme__rail" aria-hidden="true">
                       <i />
@@ -548,25 +543,21 @@ export default function HomePage() {
                       On&nbsp;choisit la solution&nbsp;<span className="line__gold">adaptée</span>
                     </h3>
                     <p className="mecanisme__text">
-                      Selon le résultat, on vous oriente vers la bonne
+                      Selon le diagnostic, on oriente vers la bonne
                       technologie&nbsp;: standard, EFB, AGM, lithium,
-                      décharge lente ou solaire. Le bon choix pour votre
-                      véhicule, votre usage et votre budget, expliqué
-                      simplement.
+                      décharge lente ou solaire. Adapté à votre véhicule,
+                      usage et budget, expliqué simplement.
                     </p>
                   </article>
                   <MecanismeStepIcon variant="choose" />
                 </div>
               </li>
 
-              <li
-                className="mecanisme__step mecanisme__step--reverse reveal-on-scroll"
-                data-delay="4"
-              >
+              <li className="mecanisme__step mecanisme__step--reverse">
                 <div className="mecanisme__marker" aria-hidden="true">
                   <span className="mecanisme__marker__number">04</span>
                 </div>
-                <div className="mecanisme__row">
+                <div className="mecanisme__row reveal-on-scroll" data-delay="4">
                   <article className="mecanisme__card">
                     <span className="mecanisme__rail" aria-hidden="true">
                       <i />
@@ -575,15 +566,367 @@ export default function HomePage() {
                       On&nbsp;<span className="line__gold">contrôle</span> avant que vous&nbsp;repartiez
                     </h3>
                     <p className="mecanisme__text">
-                      Après remplacement ou intervention, on vérifie que tout
-                      fonctionne. Vous repartez avec une solution cohérente
-                      et la certitude que c&apos;est&nbsp;réglé.
+                      Après intervention, on vérifie que tout fonctionne.
+                      Vous repartez avec une solution cohérente et la
+                      certitude que c&apos;est&nbsp;réglé.
                     </p>
                   </article>
                   <MecanismeStepIcon variant="verify" />
                 </div>
               </li>
             </ol>
+          </div>
+        </section>
+
+        <div
+          className="section-seam section-seam--between"
+          aria-hidden="true"
+        />
+
+        <section
+          className="temoignages"
+          id="avis"
+          aria-labelledby="temoignages-title"
+        >
+          <div className="temoignages__inner">
+            <header className="temoignages__head">
+              <p className="section-kicker temoignages__kicker reveal-on-scroll">
+                Particuliers, artisans, camping-caristes
+              </p>
+              <h2
+                id="temoignages-title"
+                className="temoignages__title reveal-on-scroll"
+              >
+                Ils avaient le&nbsp;même&nbsp;doute.
+                <br />
+                Ils sont repartis <span className="line__gold">tranquilles</span>.
+              </h2>
+              <p className="temoignages__lede reveal-on-scroll">
+                Particuliers, artisans, propriétaires de camping-cars : à
+                Béziers et dans la région, nos clients viennent chercher un
+                avis fiable et repartent avec la bonne solution. Découvrez ce
+                qu&apos;ils en disent.
+              </p>
+            </header>
+
+            <ul className="temoignages__grid">
+              <li className="temoignages__item reveal-on-scroll" data-delay="1">
+                <article className="temoignages__card">
+                  <span className="temoignages__rail" aria-hidden="true">
+                    <i />
+                  </span>
+                  <span
+                    className="temoignages__stars"
+                    role="img"
+                    aria-label="Note : 5 sur 5"
+                  >
+                    ★★★★★
+                  </span>
+                  <p className="temoignages__quote">
+                    « Ma voiture peinait à démarrer, je pensais changer la
+                    batterie. Le diagnostic a montré que c&apos;était
+                    l&apos;alternateur : j&apos;ai évité une dépense inutile
+                    et je suis repartie sereine. »
+                  </p>
+                  <p className="temoignages__author">
+                    Nadia B. · Particulière · Béziers
+                  </p>
+                </article>
+              </li>
+
+              <li className="temoignages__item reveal-on-scroll" data-delay="2">
+                <article className="temoignages__card">
+                  <span className="temoignages__rail" aria-hidden="true">
+                    <i />
+                  </span>
+                  <span
+                    className="temoignages__stars"
+                    role="img"
+                    aria-label="Note : 5 sur 5"
+                  >
+                    ★★★★★
+                  </span>
+                  <p className="temoignages__quote">
+                    « Mon utilitaire ne redémarrait plus un lundi matin, en
+                    pleine saison de chantiers. Diagnostic fait sur place,
+                    batterie remplacée dans la matinée : je n&apos;ai perdu
+                    aucune journée de travail. »
+                  </p>
+                  <p className="temoignages__author">
+                    Julien F. · Artisan · Béziers
+                  </p>
+                </article>
+              </li>
+
+              <li className="temoignages__item reveal-on-scroll" data-delay="3">
+                <article className="temoignages__card">
+                  <span className="temoignages__rail" aria-hidden="true">
+                    <i />
+                  </span>
+                  <span
+                    className="temoignages__stars"
+                    role="img"
+                    aria-label="Note : 5 sur 5"
+                  >
+                    ★★★★★
+                  </span>
+                  <p className="temoignages__quote">
+                    « Avant notre tour de France en camping-car, on doutait
+                    de notre autonomie en batterie lithium. ONE BATT a
+                    dimensionné la bonne solution : on est partis sans
+                    craindre la panne. »
+                  </p>
+                  <p className="temoignages__author">
+                    Christelle &amp; Yann R. · Camping-caristes
+                  </p>
+                </article>
+              </li>
+            </ul>
+
+            <div className="temoignages__proof reveal-on-scroll">
+              <div className="trust-badge">
+                <span
+                  className="trust-badge__stars"
+                  role="img"
+                  aria-label="Note : 5 sur 5"
+                >
+                  ★★★★★
+                </span>
+                <p className="trust-badge__text">
+                  Avis Google · <span className="line__gold">Revendeur officiel</span> des grandes marques
+                </p>
+              </div>
+              <p className="temoignages__proof__note">
+                Peu d&apos;avis en ligne pour l&apos;instant : la collecte
+                démarre avec nos premiers clients, alimentée avis après avis.
+              </p>
+            </div>
+
+            <div className="pending-frame reveal-on-scroll" aria-hidden="true">
+              <div className="pending-frame__inner">
+                <span className="pending-frame__label">
+                  Widget d&apos;avis Google : à intégrer au lancement
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div
+          className="section-seam section-seam--between"
+          aria-hidden="true"
+        />
+
+        <section
+          className="comparatif"
+          id="comparatif"
+          aria-labelledby="comparatif-title"
+        >
+          <div className="comparatif__inner">
+            <header className="comparatif__head">
+              <h2
+                id="comparatif-title"
+                className="comparatif__title reveal-on-scroll"
+              >
+                Notre approche <span className="line__gold">VS</span>
+                <br />
+                un achat classique
+              </h2>
+              <p className="comparatif__lede reveal-on-scroll">
+                En grande surface ou en ligne, on vend souvent une batterie
+                sans chercher l&apos;origine de la panne ni vérifier la
+                compatibilité. Chez ONE BATT, le diagnostic précède la vente,
+                avec des experts sur place à Béziers.
+              </p>
+            </header>
+
+            <div className="comparatif__table-wrap reveal-on-scroll">
+              <table className="comparatif__table">
+                <caption className="sr-only">
+                  Comparaison entre ONE BATT et un achat classique en grande
+                  surface ou en ligne
+                </caption>
+                <thead>
+                  <tr>
+                    <th
+                      scope="col"
+                      className="comparatif__cell comparatif__cell--label"
+                    />
+                    <th
+                      scope="col"
+                      className="comparatif__cell comparatif__cell--onebatt"
+                    >
+                      One Batt
+                    </th>
+                    <th
+                      scope="col"
+                      className="comparatif__cell comparatif__cell--classic"
+                    >
+                      Grande surface / achat en ligne
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {comparatifRows.map((row) => (
+                    <tr key={row.label}>
+                      <th
+                        scope="row"
+                        className="comparatif__cell comparatif__cell--label"
+                      >
+                        {row.label}
+                      </th>
+                      <td className="comparatif__cell comparatif__cell--onebatt">
+                        <ComparatifMark type={row.onebatt ? "yes" : "no"} />
+                        <span className="sr-only">
+                          {row.onebatt ? "Oui" : "Non"}
+                        </span>
+                      </td>
+                      <td className="comparatif__cell comparatif__cell--classic">
+                        <ComparatifMark type={row.classic ? "yes" : "no"} />
+                        <span className="sr-only">
+                          {row.classic ? "Oui" : "Non"}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="trust-badge comparatif__proof reveal-on-scroll">
+              <span
+                className="trust-badge__stars"
+                role="img"
+                aria-label="Note : 5 sur 5"
+              >
+                ★★★★★
+              </span>
+              <p className="trust-badge__text">
+                Avis Google à venir ·{" "}
+                <span className="line__gold">revendeur officiel</span> des
+                grandes marques à Béziers
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div
+          className="section-seam section-seam--between"
+          aria-hidden="true"
+        />
+
+        <section className="faq" id="faq" aria-labelledby="faq-title">
+          <div className="faq__inner">
+            <header className="faq__head">
+              <p className="section-kicker faq__kicker reveal-on-scroll">
+                Particuliers et professionnels nous font confiance à Béziers
+              </p>
+              <h2 id="faq-title" className="faq__title reveal-on-scroll">
+                Vos questions,
+                <br />
+                <span className="line__gold">nos réponses</span>
+              </h2>
+              <p className="faq__lede reveal-on-scroll">
+                Tout ce que vous voulez savoir avant de passer nous voir ou
+                de nous appeler.
+              </p>
+            </header>
+
+            <ul className="faq__list">
+              {faqItems.map((item, index) => (
+                <li
+                  className="faq__item reveal-on-scroll"
+                  data-delay={Math.min(index + 1, 6)}
+                  key={item.q}
+                >
+                  <details className="faq__details">
+                    <summary className="faq__summary">
+                      <span className="faq__rail" aria-hidden="true">
+                        <i />
+                      </span>
+                      <span className="faq__question">{item.q}</span>
+                      <span className="faq__toggle" aria-hidden="true" />
+                    </summary>
+                    <div className="faq__answer">
+                      <p>{item.a}</p>
+                    </div>
+                  </details>
+                </li>
+              ))}
+            </ul>
+
+            <div className="faq__cta reveal-on-scroll">
+              <div className="faq__cta__content">
+                <h3 className="faq__cta__title">
+                  Vous avez encore des questions&nbsp;?
+                </h3>
+                <p className="faq__cta__text">
+                  Appelez-nous, on vous répond directement et on vous
+                  conseille selon votre véhicule.
+                </p>
+              </div>
+              <div className="cta-row">
+                <a className="pill pill--primary" href="tel:+33467000000">
+                  <span className="pill__label">Appeler ONE BATT</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div
+          className="section-seam section-seam--between"
+          aria-hidden="true"
+        />
+
+        <section
+          className="final-cta"
+          id="contact"
+          aria-labelledby="final-cta-title"
+        >
+          <div className="final-cta__inner">
+            <div className="final-cta__card reveal-on-scroll">
+              <div className="final-cta__content">
+                <div className="trust-badge">
+                  <span
+                    className="trust-badge__stars"
+                    role="img"
+                    aria-label="Note : 5 sur 5"
+                  >
+                    ★★★★★
+                  </span>
+                  <p className="trust-badge__text">
+                    Avis Google ·{" "}
+                    <span className="line__gold">Revendeur officiel</span>{" "}
+                    des grandes marques
+                  </p>
+                </div>
+                <h2 id="final-cta-title" className="final-cta__title">
+                  Prêt à repartir l&apos;esprit&nbsp;
+                  <span className="line__gold">tranquille</span>&nbsp;?
+                </h2>
+                <p className="final-cta__text">
+                  Un doute sur votre batterie, un besoin d&apos;autonomie ou
+                  une panne à régler ? Un appel suffit pour obtenir un avis
+                  fiable et la bonne solution, avant que la panne ne vous
+                  immobilise pour de bon.
+                </p>
+                <div className="final-cta__cta cta-row">
+                  <a className="pill pill--primary" href="tel:+33467000000">
+                    <span className="pill__label">
+                      J&apos;appelle un expert ONE BATT
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <figure className="final-cta__media" aria-hidden="true">
+                <div className="final-cta__media__frame">
+                  <span className="final-cta__media__label">
+                    En attente de photos
+                  </span>
+                </div>
+              </figure>
+            </div>
           </div>
         </section>
       </div>
