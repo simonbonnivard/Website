@@ -1,5 +1,7 @@
+import { headers } from "next/headers";
 import "./globals.css";
 import SiteClient from "@/components/site-client";
+import { dinot } from "@/lib/fonts";
 
 export const metadata = {
   metadataBase: new URL("https://www.onebatt.fr"),
@@ -17,7 +19,6 @@ export const metadata = {
   ],
   authors: [{ name: "ONE BATT" }],
   robots: { index: true, follow: true },
-  referrer: "strict-origin-when-cross-origin",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -64,27 +65,16 @@ const jsonLd = {
   priceRange: "€€",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  const nonce = (await headers()).get("x-nonce") || undefined;
+
   return (
-    <html lang="fr">
+    <html lang="fr" className={dinot.variable}>
       <head>
         <link rel="icon" href="/onebatt_logo_nav.png" type="image/png" />
-        <link
-          rel="preload"
-          href="/DINOT.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/DINOT-Bold.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
         <script
           type="application/ld+json"
+          nonce={nonce}
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>

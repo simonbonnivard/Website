@@ -1,10 +1,29 @@
 const variants = {
   listen: (
-    <svg className="mecanisme__icon__svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+    <svg
+      className="mecanisme__icon__svg"
+      viewBox="0 0 80 80"
+      fill="none"
+      aria-hidden="true"
+    >
       <circle className="mecanisme__icon__ring" cx="40" cy="40" r="34" />
       <path className="mecanisme__icon__stroke" d="M15 44a17.5 17.5 0 0 1 35 0" />
-      <rect className="mecanisme__icon__stroke" x="10" y="44" width="10" height="17" rx="5" />
-      <rect className="mecanisme__icon__stroke" x="45" y="44" width="10" height="17" rx="5" />
+      <rect
+        className="mecanisme__icon__stroke"
+        x="10"
+        y="44"
+        width="10"
+        height="17"
+        rx="5"
+      />
+      <rect
+        className="mecanisme__icon__stroke"
+        x="45"
+        y="44"
+        width="10"
+        height="17"
+        rx="5"
+      />
       <path
         className="mecanisme__icon__wave mecanisme__icon__wave--1"
         d="M59 46c4 0 7 2.7 7 6s-3 6-7 6"
@@ -20,9 +39,21 @@ const variants = {
     </svg>
   ),
   diagnose: (
-    <svg className="mecanisme__icon__svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+    <svg
+      className="mecanisme__icon__svg"
+      viewBox="0 0 80 80"
+      fill="none"
+      aria-hidden="true"
+    >
       <circle className="mecanisme__icon__ring" cx="40" cy="40" r="34" />
-      <rect className="mecanisme__icon__stroke" x="18" y="26" width="44" height="30" rx="6" />
+      <rect
+        className="mecanisme__icon__stroke"
+        x="18"
+        y="26"
+        width="44"
+        height="30"
+        rx="6"
+      />
       <path
         className="mecanisme__icon__waveform"
         d="M24 44h6l4-11 6 22 4-15 3 4h11"
@@ -32,7 +63,12 @@ const variants = {
     </svg>
   ),
   choose: (
-    <svg className="mecanisme__icon__svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+    <svg
+      className="mecanisme__icon__svg"
+      viewBox="0 0 80 80"
+      fill="none"
+      aria-hidden="true"
+    >
       <circle className="mecanisme__icon__ring" cx="40" cy="40" r="34" />
       <rect
         className="mecanisme__icon__option mecanisme__icon__option--1"
@@ -63,7 +99,12 @@ const variants = {
     </svg>
   ),
   verify: (
-    <svg className="mecanisme__icon__svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+    <svg
+      className="mecanisme__icon__svg"
+      viewBox="0 0 80 80"
+      fill="none"
+      aria-hidden="true"
+    >
       <circle className="mecanisme__icon__ring" cx="40" cy="40" r="34" />
       <circle className="mecanisme__icon__stroke" cx="40" cy="40" r="18" />
       <path className="mecanisme__icon__check" d="M31 40l6 6 14-16" pathLength="1" />
