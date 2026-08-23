@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const compat = new FlatCompat({ baseDirectory: __dirname });
 
-export default [
+const config = [
   {
     ignores: [".next/**", "dist/**", "node_modules/**"],
   },
@@ -31,3 +31,5 @@ export default [
     },
   },
 ];
+
+export default config;
